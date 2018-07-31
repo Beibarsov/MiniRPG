@@ -10,6 +10,7 @@ namespace MiniRPG
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Начало");
         }
     }
 }
