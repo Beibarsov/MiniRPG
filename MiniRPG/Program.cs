@@ -11,6 +11,11 @@ namespace MiniRPG
         static void Main(string[] args)
         {
             Console.WriteLine("Начало");
+            //Создаём объект героя
+            People myHero = new People(10, 0, 0, 2);
+            People  myEnemy = new People();
+            myHero.HasBeenDamaged(1);
+            myHero.HeroAtack(myEnemy);
         }
     }
 }
