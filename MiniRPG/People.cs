@@ -73,7 +73,10 @@ namespace MiniRPG
             
             
         }
-
+        /// <summary>
+        /// Метод для атаки
+        /// </summary>
+        /// <param name="enemy">Принимает другой объект класса People, по которому и проходит урон</param>
         public void HeroAtack(People enemy)
         {
             try
