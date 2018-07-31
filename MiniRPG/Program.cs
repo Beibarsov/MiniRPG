@@ -10,6 +10,7 @@ namespace MiniRPG
     {
         static void Main(string[] args)
         {
+            Console.Title = "MiniRPG v0.0.1";
             Console.WriteLine("Начало");
             //Создаём объект героя
             People myHero = new People(10, 0, 0, 2);
